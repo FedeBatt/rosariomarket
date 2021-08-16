@@ -1,0 +1,93 @@
+.cuerpoInstitucional{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+    gap: 2rem;
+}
+
+.cuerpoInstitucional  img {
+    width: 100%;
+}
+
+.listaPaises{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.sociosContainer{
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.sociosBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    border-radius: 10px;
+    flex-grow: 1;
+    gap: 3rem;
+    flex-wrap: wrap;
+    border-bottom: 1px solid grey;
+    box-shadow: 0 10px 28px rgba(121, 121, 121, 0.25), 0 10px 10px rgba(114, 114, 114, 0.22);
+}
+
+
+.sociosBox > img{
+    width: 40%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px ;
+}
+
+.sociosBox > h5, p{
+    width: 90%;
+}
+
+.frase{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: rgb(221, 221, 221);
+    padding: 3rem;
+    text-align: center;
+    border:1px solid black;
+    border-radius: 15px;
+    font-style: oblique;
+}
+
+.linkedin{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 1rem;
+    font-weight: bolder;
+}
+
+.linkedin:hover{
+    color: blue;
+}
+
+@media screen and (max-width:600px) {
+    .cuerpoInstitucional{
+        display: flex;
+        justify-content: center;
+        margin: 1.5rem;
+    }
+
+    .cuerpoInstitucional  img {
+        width: 100%;
+    }
+
+    .listaPaises ul{
+        width: 50%;
+        font-size: 1rem;
+    }
+}
